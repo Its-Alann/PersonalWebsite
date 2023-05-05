@@ -5,7 +5,7 @@ const About = () => {
     <div
       name="about"
       className="w-full h-screen bg-gradient-to-b
-     from-black via-black to-gray-900 text-white"
+     from-gray-900 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -15,15 +15,11 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          ut impedit odio dicta, ipsa architecto laboriosam veniam hic culpa,
+          maiores at molestiae. Quasi quas nemo fugiat hic soluta odio numquam
+          eos ipsam nobis obcaecati esse facere, suscipit quidem dolorem quod
+          odit delectus sint ducimus assumenda? Numquam velit sint minus. Iusto!
         </p>
       </div>
     </div>
