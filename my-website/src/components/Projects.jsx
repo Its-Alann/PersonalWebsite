@@ -1,10 +1,32 @@
 import React from "react";
+import hireme from "../assets/images/hireme.png";
+import heagle from "../assets/images/heagle.png";
+import handle from "../assets/images/handle.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: "link",
+      src: hireme,
+      title: "HIREME",
+      code: "https://github.com/Its-Alann/SOEN390-Project-Team8",
+      demo: "https://team-ate.web.app/",
+    },
+
+    {
+      id: 2,
+      src: handle,
+      title: "Handle",
+      code: "https://github.com/Its-Alann/Handle",
+      demo: "https://adamoorsini.com/Handle/",
+    },
+
+    {
+      id: 3,
+      src: heagle,
+      title: "Heagle",
+      code: "https://github.com/Its-Alann/Heagle",
+      demo: "",
     },
   ];
 
@@ -21,24 +43,49 @@ const Projects = () => {
           <p className="py-6"> Check out some of my work </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src=""
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+        <div className="grid lg:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {projects.map(({ id, src, title, code, demo }) => (
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg duration-500 hover:scale-105"
+            >
+              <img src={src} alt="" className="rounded-md duration-200" />
+              <div className="flex items-center justify-center mt-3">
+                <p className="text-white-700 text-md">{title}</p>
+              </div>
 
-              <div className="flex items-center justif-center">
-                <button className="w-1/2 px-6 py-3 ,-4 duration-200 hover:scale-105">
-                  {" "}
-                  Demo{" "}
-                </button>
-                <button className="w-1/2 px-6 py-3 ,-4 duration-200 hover:scale-105">
-                  {" "}
-                  Code{" "}
-                </button>
+              <div className="flex items-center justify-center">
+                {demo !== "" ? (
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                    onClick={() => window.open(demo, "_blank")}
+                  >
+                    Demo
+                  </button>
+                ) : (
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 cursor-not-allowed text-gray-600"
+                    disabled
+                  >
+                    Demo
+                  </button>
+                )}
+
+                {code !== "" ? (
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110"
+                    onClick={() => window.open(code, "_blank")}
+                  >
+                    Code
+                  </button>
+                ) : (
+                  <button
+                    className="w-1/2 px-6 py-3 m-4 duration-200 opacity-50 cursor-not-allowed"
+                    disabled
+                  >
+                    Code
+                  </button>
+                )}
               </div>
             </div>
           ))}
