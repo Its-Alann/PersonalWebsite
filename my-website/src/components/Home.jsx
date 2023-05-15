@@ -1,5 +1,7 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
+import MyPic from "../assets/images/picture.jpg";
 
 const Home = () => {
   return (
@@ -12,25 +14,37 @@ const Home = () => {
         className="max-w-screen-lg mx-auto flex flex-col items-center
          justify-center h-full px-4 md:flex-row"
       >
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl">Hi! I'm Alan</h2>
-          <p className="text-gray-500 py-4 max-w-md items-center justify-center flex">
-            I am a third year Software Engineering student at Concordia
-            University in Montreal
+        <div className="flex flex-col justify-center h-80">
+          <h2 className="text-4xl sm:text-7xl">Hi! I'm Alan Vadlakunta</h2>
+          <p className="text-gray-500 py-4 max-w-md">
+            I'm a final year Software Engineering student at Concordia
+            University in Montreal.
           </p>
 
           <div>
-            <button
+            <Link
               className="group text-white w-fit px-6 py-3
                     my-2 flex items-center rounded-md bg-gradient-to-r
                     from-cyan-500 to-blue-500 cursor-pointer"
+              to="project"
+              smooth={(true, "easeInOutQuart")}
+              duration={2000}
+              offset={-80}
             >
-              Portfolio
+              Projects
               <span className="group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={15} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
+        </div>
+
+        <div>
+          <img
+            src={MyPic}
+            alt="My Profile Pic"
+            className="rounded-2xl mx-auto w-2/3"
+          />
         </div>
       </div>
     </div>
