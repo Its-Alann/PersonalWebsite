@@ -17,28 +17,34 @@ const Navbar = () => {
     {
       id: 3,
       link: "project",
+      offset: -80,
     },
     {
       id: 4,
-      link: "resume",
+      link: "experience",
     },
   ];
 
   return (
     <div
       className="flex justify-between items-center
-    w-full h-20 px-4 text-white bg-black fixed"
+    w-full h-20 px-4 text-white bg-black fixed z-10"
     >
       <div>{/* <h1 className='text-3xl ml-2'> Alan </h1> */}</div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, offset }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium
              text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth={(true, "easeInOutQuart")} duration={2000}>
+            <Link
+              to={link}
+              smooth={(true, "easeInOutQuart")}
+              duration={2000}
+              offset={offset}
+            >
               {link}
             </Link>
           </li>
@@ -58,7 +64,7 @@ const Navbar = () => {
                 absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black 
                  via-black to-gray-900 text-gray-500"
         >
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, offset }) => (
             <li
               key={id}
               className="px-4 cursor-pointer capitalize py-6
@@ -69,6 +75,7 @@ const Navbar = () => {
                 to={link}
                 smooth={(true, "easeInOutQuart")}
                 duration={2000}
+                offset={offset}
               >
                 {link}
               </Link>
