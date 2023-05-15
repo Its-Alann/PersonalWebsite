@@ -39,11 +39,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="lg:w-2/3 md:w-2/3 sm:max-w-[80%]">
           <img
             src={MyPic}
             alt="My Profile Pic"
-            className="rounded-2xl mx-auto w-2/3"
+            className="rounded-2xl mx-auto"
           />
         </div>
       </div>
