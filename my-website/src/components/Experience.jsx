@@ -1,104 +1,108 @@
 import React from "react";
-import reactLogo from "../assets/images/react.png";
-import js from "../assets/images/js.png";
-import html from "../assets/images/html.png";
-import css from "../assets/images/css.png";
-import java from "../assets/images/java.png";
-import python from "../assets/images/python.png";
-import cypress from "../assets/images/cypress.png";
-import mysql from "../assets/images/mysql.png";
-import firebase from "../assets/images/firebase.png";
 
 const Experience = () => {
-  const technologies = [
+  const experience = [
     {
       id: 1,
-      src: reactLogo,
-      title: "React",
-      style: "shadow-cyan-400",
+      company: "Sofvie",
+      location: "Montreal, QC",
+      position: "Big Data Analyst Intern",
+      duration: "Jan 2023 - April 2023",
+      description: [
+        "Designed machine learning algorithms to evaluate factors that increase employee training completion rate.",
+        "Maintained constant communication with stakeholders to provide insight on progress and updates.",
+        "Implemented K-Mean and hierarchal clustering using Python’s Scikit-Learn to find common characteristics in employees with high training completion rates",
+        "Used Pandas DataFrames to store and manipulate data from MySQL database.",
+        "Optimized complex SQL queries to fetch relevant information from MySQL database and compute completion rate per employee.",
+      ],
+      utilized:
+        "Python, Jupyter Notebook, Scikit-Learn, Seaborn, MySQL, Pandas",
     },
 
     {
       id: 2,
-      src: js,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      company: "Small Business Owner",
+      location: "Saint-Lazare, QC",
+      position: "Local 3D Printing Service",
+      duration: "Apr 2022 - Present",
+      description: [
+        "Designed and printed 3D models for clients to satisfy their requests.",
+        "Optimized and sliced over 50 3D models using UltiMaker Cura.",
+        "Generated sales in Canada and USA with over 60% profit margins through ecommerce websites.",
+      ],
+      utilized: "",
     },
 
     {
       id: 3,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-
-    {
-      id: 4,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-700",
-    },
-
-    {
-      id: 5,
-      src: java,
-      title: "Java",
-      style: "shadow-blue-400",
-    },
-
-    {
-      id: 6,
-      src: python,
-      title: "Python",
-      style: "shadow-amber-300",
-    },
-
-    {
-      id: 7,
-      src: mysql,
-      title: "MySQL",
-      style: "shadow-sky-900",
-    },
-
-    {
-      id: 8,
-      src: firebase,
-      title: "Firebase",
-      style: "shadow-amber-400",
-    },
-
-    {
-      id: 9,
-      src: cypress,
-      title: "Cypress",
-      style: "shadow-neutral-500",
+      company: "FedEx Supply Chain",
+      location: "Coteau-du-Lac, QC",
+      position: "Warehouse Associate",
+      duration: "June 2019 - Apr 2022",
+      description: [
+        "Worked either in teams or alone to achieve daily objectives.",
+        "Recorded information, shortages, and discrepancies to keep records current and accurate.",
+        "Loaded/unloaded materials from skids and other transport vehicles.",
+      ],
+      utilized: "",
     },
   ];
-
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-900 to-black w-full h-full"
+      className="bg-gradient-to-b from-black to-gray-900 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full min-h-screen text-white">
-        <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-2 border-gray-700">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {technologies.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-            >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4"> {title} </p>
+        {experience.map(
+          ({
+            id,
+            company,
+            location,
+            position,
+            duration,
+            description,
+            utilized,
+          }) => (
+            <div key={id} className="mb-6">
+              <div className="mb-4">
+                <div className="flex justify-between mb-1">
+                  <p className="font-bold text-2xl"> {company} </p>
+                  <p> {location} </p>
+                </div>
+                <div className="flex justify-between">
+                  <p> {position} </p>
+                  <p> {duration} </p>
+                </div>
+              </div>
+              <div>
+                {description.map((item, index) => (
+                  <p key={index} className="flex mb-2">
+                    <div className="mr-2"> - </div>
+                    <div>{item}</div>
+                  </p>
+                ))}
+              </div>
+
+              {utilized !== "" ? (
+                <div className="flex">
+                  <p className="underline underline-offset-4 mr-2">
+                    {" "}
+                    Utilized:{" "}
+                  </p>
+                  <p> {utilized} </p>
+                </div>
+              ) : (
+                <> </>
+              )}
             </div>
-          ))}
-        </div>
+          )
+        )}
       </div>
     </div>
   );
