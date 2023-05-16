@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.c8687bb0.css",
+    "main.js": "/PersonalWebsite/static/js/main.e84b1f66.js",
+    "static/media/picture.jpg": "/PersonalWebsite/static/media/picture.d15766f220e4c83383a2.jpg",
+    "static/media/heagle.png": "/PersonalWebsite/static/media/heagle.f7cf9f7cff5eb294116f.png",
+    "static/media/handle.png": "/PersonalWebsite/static/media/handle.198a4857845cbe0134fa.png",
+    "static/media/cypress.png": "/PersonalWebsite/static/media/cypress.2ed76d6bf7248163c334.png",
+    "static/media/react.png": "/PersonalWebsite/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python.png": "/PersonalWebsite/static/media/python.82efb64f8698a267f8bf.png",
+    "static/media/mysql.png": "/PersonalWebsite/static/media/mysql.351f6bfc49e2e36d8232.png",
+    "static/media/hireme.png": "/PersonalWebsite/static/media/hireme.5fa8a63f33ff7681349d.png",
+    "static/media/Romana Bold.otf": "/PersonalWebsite/static/media/Romana Bold.18bd5de79aeb7959ee0c.otf",
+    "static/media/Romana Regular.otf": "/PersonalWebsite/static/media/Romana Regular.bc6b09d92d64f9d9aa66.otf",
+    "static/media/js.png": "/PersonalWebsite/static/media/js.ac9e504211b46cfb0118.png",
+    "static/media/css.png": "/PersonalWebsite/static/media/css.58dfbebae4a02001b50e.png",
+    "static/media/java.png": "/PersonalWebsite/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/html.png": "/PersonalWebsite/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/firebase.png": "/PersonalWebsite/static/media/firebase.65c4fe9f7eb228db7a4c.png",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.c8687bb0.css.map": "/PersonalWebsite/static/css/main.c8687bb0.css.map",
+    "main.e84b1f66.js.map": "/PersonalWebsite/static/js/main.e84b1f66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8687bb0.css",
+    "static/js/main.e84b1f66.js"
+  ]
+}
