@@ -37,7 +37,7 @@ const About = () => {
           web applications of varying team sizes of 4 to 9 students. I have
           experience with technologies such as React, JavaScript, Python and
           Java. I also have experience with CI/CD through GitHub Actions and
-          testing framworks such as Cyrpess.
+          testing framworks such as Cypress.
         </p>
       </div>
     </div>
