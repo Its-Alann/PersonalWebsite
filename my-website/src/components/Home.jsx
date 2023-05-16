@@ -26,7 +26,7 @@ const Home = () => {
               className="group text-white w-fit px-6 py-3
                     my-2 flex items-center rounded-md bg-gradient-to-r
                     from-cyan-500 to-blue-500 cursor-pointer"
-              to="project"
+              to="projects"
               smooth={(true, "easeInOutQuart")}
               duration={2000}
               offset={-80}
@@ -39,7 +39,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="lg:w-2/3 md:w-2/3 sm:max-w-[80%]">
+        <div className="w-2/3 md:w-2/3">
           <img
             src={MyPic}
             alt="My Profile Pic"
