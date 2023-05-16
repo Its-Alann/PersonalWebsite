@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Romana Regular";
-  src: url("./fonts/Romana\ Regular.otf")
+  src: url("./fonts/Romana\ Regular.otf");
 }
 
 @font-face {
   font-family: "Romana Bold";
-  src: url("./fonts/Romana\ Bold.otf")
+  src: url("./fonts/Romana\ Bold.otf");
 }
 
 @tailwind base;
@@ -14,6 +14,26 @@
 
 @layer base {
   html {
-    font-family: 'Romana Regular'
+    font-family: "Romana Regular";
   }
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 black;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #06b6d4, #3b82f6);
+  border-radius: 20px;
 }
