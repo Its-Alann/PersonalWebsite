@@ -83,8 +83,8 @@ const Experience = () => {
               <div>
                 {description.map((item, index) => (
                   <p key={index} className="flex mb-2">
-                    <div className="mr-2"> - </div>
-                    <div>{item}</div>
+                    <span className="mr-2"> - </span>
+                    <span>{item}</span>
                   </p>
                 ))}
               </div>
