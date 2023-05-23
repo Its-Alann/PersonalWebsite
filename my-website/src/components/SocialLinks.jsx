@@ -44,7 +44,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: Resume,
+      href: "/Alan_Vadlakunta_CV_2023_v3.pdf",
       style: "rounded-br-md",
       // download: true,
     },
