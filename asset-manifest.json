@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.c8687bb0.css",
-    "main.js": "/PersonalWebsite/static/js/main.91893d20.js",
+    "main.js": "/PersonalWebsite/static/js/main.0529d03b.js",
     "static/media/picture.jpg": "/PersonalWebsite/static/media/picture.d15766f220e4c83383a2.jpg",
     "static/media/heagle.png": "/PersonalWebsite/static/media/heagle.f7cf9f7cff5eb294116f.png",
     "static/media/handle.png": "/PersonalWebsite/static/media/handle.198a4857845cbe0134fa.png",
@@ -10,7 +10,6 @@
     "static/media/python.png": "/PersonalWebsite/static/media/python.82efb64f8698a267f8bf.png",
     "static/media/mysql.png": "/PersonalWebsite/static/media/mysql.351f6bfc49e2e36d8232.png",
     "static/media/hireme.png": "/PersonalWebsite/static/media/hireme.5fa8a63f33ff7681349d.png",
-    "static/media/Alan_Vadlakunta_CV_2023_v3.pdf": "/PersonalWebsite/static/media/Alan_Vadlakunta_CV_2023_v3.da71eb0821a3d3597ea4.pdf",
     "static/media/Romana Bold.otf": "/PersonalWebsite/static/media/Romana Bold.18bd5de79aeb7959ee0c.otf",
     "static/media/Romana Regular.otf": "/PersonalWebsite/static/media/Romana Regular.bc6b09d92d64f9d9aa66.otf",
     "static/media/js.png": "/PersonalWebsite/static/media/js.ac9e504211b46cfb0118.png",
@@ -20,10 +19,10 @@
     "static/media/firebase.png": "/PersonalWebsite/static/media/firebase.65c4fe9f7eb228db7a4c.png",
     "index.html": "/PersonalWebsite/index.html",
     "main.c8687bb0.css.map": "/PersonalWebsite/static/css/main.c8687bb0.css.map",
-    "main.91893d20.js.map": "/PersonalWebsite/static/js/main.91893d20.js.map"
+    "main.0529d03b.js.map": "/PersonalWebsite/static/js/main.0529d03b.js.map"
   },
   "entrypoints": [
     "static/css/main.c8687bb0.css",
-    "static/js/main.91893d20.js"
+    "static/js/main.0529d03b.js"
   ]
 }
