@@ -1,8 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import Resume from "../assets/docs/Alan_Vadlakunta_CV_2023_v3.pdf";
+import { FiFileText } from "react-icons/fi";
 
 const SocialLinks = () => {
   const links = [
@@ -41,23 +40,23 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <FiFileText size={30} />
         </>
       ),
-      href: Resume,
+      href: "/Alan_Vadlakunta_CV_2023_v3.pdf",
       style: "rounded-br-md",
-      // download: true,
+      download: true,
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden xl:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-700 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-700 bg-gradient-to-r from-cyan-500 to-blue-500" +
               " " +
               style
             }
@@ -65,7 +64,7 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              // download={download}
+              download={download}
               target="_blank"
               rel="noreferrer"
             >
