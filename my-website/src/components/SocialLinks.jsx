@@ -45,7 +45,7 @@ const SocialLinks = () => {
       ),
       href: "/Alan_Vadlakunta_CV_2023_v3.pdf",
       style: "rounded-br-md",
-      download: true,
+      download: false,
     },
   ];
 
