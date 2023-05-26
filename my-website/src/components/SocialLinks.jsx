@@ -43,7 +43,7 @@ const SocialLinks = () => {
           Resume <FiFileText size={30} />
         </>
       ),
-      href: "/Alan_Vadlakunta_CV_2023_v3.pdf",
+      href: `${process.env.PUBLIC_URL}/Alan_Vadlakunta_CV_2023_v3.pdf`,
       style: "rounded-br-md",
       download: false,
     },
