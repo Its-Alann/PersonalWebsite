@@ -32,7 +32,7 @@ const About = () => {
         </p>
 
         <p className="text-xl mt-10">
-          I have developped a strong skill in project management through my
+          I have developed a strong skill in project management through my
           school projects. I have led multiple team projects to build full stack
           web applications of varying team sizes of 4 to 9 students. I have
           experience with technologies such as React, JavaScript, Python and
