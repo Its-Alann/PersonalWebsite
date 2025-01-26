@@ -47,7 +47,7 @@ const Home = () => {
           <FiFileText size={30} />
         </>
       ),
-      href: `${process.env.PUBLIC_URL}/Alan_Vadlakunta_CV_2023_v3.pdf`,
+      href: `${process.env.PUBLIC_URL}/AMV_RESUME_2025_3.pdf`,
       style: "rounded-br-md",
       download: true,
     },
@@ -66,8 +66,7 @@ const Home = () => {
         <div className="flex flex-col justify-center h-80">
           <h2 className="text-4xl sm:text-6xl">Hi! I'm Alan Vadlakunta</h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm a final year Software Engineering student at Concordia
-            University in Montreal.
+            I'm an Analyst at National Bank of Canada on the ETF & Algorithmic Trading team.
           </p>
 
           <div>

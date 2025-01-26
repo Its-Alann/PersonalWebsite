@@ -8,25 +8,70 @@ import python from "../assets/images/python.png";
 import cypress from "../assets/images/cypress.png";
 import mysql from "../assets/images/mysql.png";
 import firebase from "../assets/images/firebase.png";
+import ts from "../assets/images/ts.png";
+import nodejs from "../assets/images/nodejs.png";
+import docker from "../assets/images/docker.png";
 
 const Technologies = () => {
   const technologies = [
     {
-      id: 1,
+      id: 13,
+      src: java,
+      title: "Java",
+      style: "shadow-blue-400",
+    },
+
+    {
+      id: 12,
+      src: python,
+      title: "Python",
+      style: "shadow-amber-300",
+    },
+
+    {
+      id: 11,
       src: reactLogo,
       title: "React",
       style: "shadow-cyan-400",
     },
 
     {
-      id: 2,
+      id: 10,
+      src: ts,
+      title: "TypeScript",
+      style: "shadow-blue-500",
+    },
+
+    {
+      id: 9,
       src: js,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
 
     {
-      id: 3,
+      id: 8,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-sky-900",
+    },
+
+    {
+      id: 7,
+      src: nodejs,
+      title: "Node.js",
+      style: "shadow-lime-400",
+    },
+
+    {
+      id: 6,
+      src: docker,
+      title: "Docker",
+      style: "shadow-sky-400",
+    },
+
+    {
+      id: 5,
       src: html,
       title: "HTML",
       style: "shadow-orange-500",
@@ -38,37 +83,15 @@ const Technologies = () => {
       title: "CSS",
       style: "shadow-blue-700",
     },
-
     {
-      id: 5,
-      src: java,
-      title: "Java",
-      style: "shadow-blue-400",
-    },
-
-    {
-      id: 6,
-      src: python,
-      title: "Python",
-      style: "shadow-amber-300",
-    },
-
-    {
-      id: 7,
-      src: mysql,
-      title: "MySQL",
-      style: "shadow-sky-900",
-    },
-
-    {
-      id: 8,
+      id: 3,
       src: firebase,
       title: "Firebase",
       style: "shadow-amber-400",
     },
 
     {
-      id: 9,
+      id: 1,
       src: cypress,
       title: "Cypress",
       style: "shadow-neutral-500",

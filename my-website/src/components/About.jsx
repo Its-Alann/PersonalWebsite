@@ -16,8 +16,9 @@ const About = () => {
 
         <p className="text-xl mt-20">
           Hey there! It seems you've stumbled upon my website. My name is Alan
-          Vadlakunta, and I'm a final year Software Engineering student at
-          Concordia University in Montreal.
+          Vadlakunta, and I'm a Software Engineering graduate from Concordia
+          University in Montreal. I am currently working as an Analyst at
+          National Bank of Canada on the Alorithmic Trading team.
         </p>
 
         <p className="text-xl mt-10">
