@@ -3,37 +3,42 @@ import React from "react";
 const Experience = () => {
   const experience = [
     {
-      id: 1,
-      company: "National Bank of Canada - Financial Markets",
-      location: "Montreal, QC",
-      position: "Analyst",
-      duration: "Sept 2024 - Present",
+      id: 8,
+      company: "Asher Technologies LLC",
+      location: "Remote - Herndon, VA",
+      position: "Backend Developer",
+      duration: "Aug 2025 - Present",
       description: [
-        "Converted message queue infrastructure to FIX protocol to streamline communication and reduce order execution latency by 60%.",
-        "Maintained constant communication with stakeholders to provide insight on progress and updates.",
-        "Implemented robust file parsers to process data from over 30 issuers with varying file formats.",
-        "Monitored multiple production applications, resolving issues to prevent disruptions to trading operations.",
+        "Implemented an automated system to detect operating statement and MAMP variances using Python, removing 15 hours of manual review time each month.",
+        "Built Palantir Foundry dashboards to visualize monthly statement alerts, reducing manual review effort and accelerating issue detection.",
+        "Developed SQL-based ETL transformations to clean, aggregate, and validate raw ingestion data into views.",
+        "Delivered an automated IACUC protocol workflow using Java and React.js, streamlining creation, delegation, status transitions, and email notifications reducing processing time by 50%.",
+        "Improved batch processing speed across Java modules by refactoring code, and resolving defects.",
       ],
-      utilized: "Java, Python, PostgreSQL, SQL, Git",
+      utilized:
+        "Python, Java, Palantir Foundry, React.js, Pandas, Spring Boot, Jenkins, MySQL, Git, GitLab",
     },
 
     {
-      id: 2,
-      company: "National Bank of Canada - Financial Markets",
+      id: 1,
+      company: "National Bank of Canada - Capital Markets",
       location: "Montreal, QC",
-      position: "Software Developer Intern",
-      duration: "May 2024 - Aug 2024",
+      position: "Algorithmic Trading Developer",
+      duration: "May 2024 - Aug 2025",
       description: [
-        "Implemented comprehensive module to track and manage DMA and Give-ups agreements and payments.",
-        "Designed and implemented React.js state machine to monitor component states and mitigate callbacks.",
-        "Automated invoice generation to accelerate billing process.",
+        "Built Python data pipelines to process and transform data from over 1500 ETFs with varying file formats, optimizing ETL workflow.",
+        "Implemented Go RESTful APIs for financial instrument resolution, improving runtime speeds by 30% across 5+ critical applications.",
+        "Designed a real-time trading data pipeline using Java, reducing batch processing time from 45 minutes to near real-time by incrementally processing incoming files.",
+        "Converted Java message queue infrastructure to FIX protocol to streamline communication and reduce order execution latency by 30%.",
+        "Contributed in the architecture for a real-time trading data pipeline, creating class and sequence diagrams to document system and microservices interactions and data flow.",
       ],
-      utilized: "Python, React.js, TypeScript, Flask, SQL, Git",
+      utilized:
+        " Java, Python, PostgreSQL, AWS, Redis, SQL, Git, Go, Bash, Hibernate, Vue, Jenkins",
     },
 
     {
       id: 3,
-      company: "ARDXX",
+      company: "Asher Technologies LLC",
       location: "Remote - Herndon, VA",
       position: "Software Developer",
       duration: "May 2023 - Aug 2023",
@@ -64,7 +69,7 @@ const Experience = () => {
 
     {
       id: 5,
-      company: "ARDXX",
+      company: "Asher Technologiess LLC",
       location: "Remote - Herndon, VA",
       position: "Software Developer",
       duration: "May 2022 - Aug 2022",

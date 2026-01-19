@@ -43,7 +43,7 @@ const SocialLinks = () => {
           Resume <FiFileText size={30} />
         </>
       ),
-      href: `${process.env.PUBLIC_URL}/AMV_RESUME_2025_3.pdf`,
+      href: `${process.env.PUBLIC_URL}/AMV_RESUME_2026.pdf`,
       style: "rounded-br-md",
       download: false,
     },

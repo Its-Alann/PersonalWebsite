@@ -11,6 +11,10 @@ import firebase from "../assets/images/firebase.png";
 import ts from "../assets/images/ts.png";
 import nodejs from "../assets/images/nodejs.png";
 import docker from "../assets/images/docker.png";
+import aws from "../assets/images/aws.png";
+import redis from "../assets/images/redis.png";
+import go from "../assets/images/go.png";
+import kafka from "../assets/images/kafka.png";
 
 const Technologies = () => {
   const technologies = [
@@ -26,6 +30,34 @@ const Technologies = () => {
       src: python,
       title: "Python",
       style: "shadow-amber-300",
+    },
+
+    {
+      id: 14,
+      src: aws,
+      title: "AWS",
+      style: "shadow-orange-500",
+    },
+
+    {
+      id: 15,
+      src: redis,
+      title: "Redis",
+      style: "shadow-red-600",
+    },
+
+    {
+      id: 16,
+      src: go,
+      title: "Golang",
+      style: "shadow-cyan-600",
+    },
+
+    {
+      id: 17,
+      src: kafka,
+      title: "Kafka",
+      style: "shadow-white",
     },
 
     {
@@ -111,11 +143,11 @@ const Technologies = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-4 px-12 sm:px-0">
           {technologies.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4"> {title} </p>

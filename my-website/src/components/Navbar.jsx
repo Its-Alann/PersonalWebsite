@@ -22,11 +22,13 @@ const Navbar = () => {
     {
       id: 4,
       link: "technologies",
+      offset: -40,
     },
 
     {
       id: 5,
       link: "experience",
+      offset: -70,
     },
   ];
 

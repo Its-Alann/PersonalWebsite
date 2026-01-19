@@ -47,7 +47,7 @@ const Home = () => {
           <FiFileText size={30} />
         </>
       ),
-      href: `${process.env.PUBLIC_URL}/AMV_RESUME_2025_3.pdf`,
+      href: `${process.env.PUBLIC_URL}/AMV_RESUME_2026.pdf`,
       style: "rounded-br-md",
       download: true,
     },
@@ -65,8 +65,10 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-80">
           <h2 className="text-4xl sm:text-6xl">Hi! I'm Alan Vadlakunta</h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I'm an Analyst at National Bank of Canada on the ETF & Algorithmic Trading team.
+          <p className="text-gray-500 py-4 max-w-md text-xl">
+            I’m a Backend Software Engineer specializing in data-intensive
+            systems, with experience building trading platforms and scalable
+            APIs in finance and enterprise environments.
           </p>
 
           <div>

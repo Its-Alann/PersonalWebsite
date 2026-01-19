@@ -14,31 +14,33 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Hey there! It seems you've stumbled upon my website. My name is Alan
-          Vadlakunta, and I'm a Software Engineering graduate from Concordia
-          University in Montreal. I am currently working as an Analyst at
-          National Bank of Canada on the Alorithmic Trading team.
+        <p className="text-xl">
+          Hey there! It seems you've stumbled upon my website. I’m Alan
+          Vadlakunta, a Software Engineering graduate from Concordia University
+          in Montreal and a Backend Software Engineer with experience in
+          algorithmic trading, data pipelines, and scalable backend systems.
         </p>
 
         <p className="text-xl mt-10">
-          I'm a creative soul who loves tackling challenges and exploring
-          different fields. In my free time, you'll find me flying drones,
-          making music, and running my own 3D printing business. Coding is also
-          a passion of mine, as I enjoy building programs that showcase my
-          skills and creativity. I'm all about expanding my horizons and honing
-          my craft. I thrive on learning new things and pushing my boundaries.
-          Whether it's diving into new projects or expressing myself through
-          various mediums, I'm constantly seeking ways to fuel my creativity.
+          I’ve worked on building real-time and batch data systems, REST APIs,
+          and full-stack applications using technologies like Java, Python, Go,
+          React, and AWS. My background spans finance and enterprise
+          environments, where I focus on writing reliable, performant code and
+          turning complex workflows into maintainable software.
         </p>
 
         <p className="text-xl mt-10">
-          I have developed a strong skill in project management through my
-          school projects. I have led multiple team projects to build full stack
-          web applications of varying team sizes of 4 to 9 students. I have
-          experience with technologies such as React, JavaScript, Python and
-          Java. I also have experience with CI/CD through GitHub Actions and
-          testing framworks such as Cypress.
+          Beyond my professional work, I’m a creative problem-solver at heart.
+          In my free time, I enjoy flying drones, making music, and running a
+          small 3D printing service. These projects allow me to blend creativity
+          with engineering and continuously challenge myself outside of
+          traditional software development.
+        </p>
+
+        <p className="text-xl mt-10">
+          I’m always eager to learn, explore new technologies, and push my
+          boundaries, whether that’s through building new systems, refining
+          existing ones, or experimenting with creative side projects.
         </p>
       </div>
     </div>
